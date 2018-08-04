@@ -1,4 +1,4 @@
-h2. Keyboard Shortcuts for Sublime Text 3- OSX
+h2. Keyboard Shortcuts for Sublime Text 3 - Mac
 
 h3. Editing
 
