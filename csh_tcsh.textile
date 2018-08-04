@@ -19,4 +19,4 @@ h3. Editing
 | $cal 1492 1 more | View calendar for year 1492 using pager |
 | $date; who 1 more | Write the output of date to the terminal and the output of who to more |
 | $(date; who) 1 more | Write the output of both commands to more |
-| $ & | Running commands in the background |
+| $(sleep 600; echo TIME TO LEAVE) & | Running commands in the background |
