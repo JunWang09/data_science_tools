@@ -1,0 +1,21 @@
+h2. Command of csh & tcsh
+
+h3. Editing
+
+| Command | Description |
+| $sort -r file | Sort file in reverse order |
+| $mv file1 file2 | Rename file1 to file2 (file1 becomes file2) |
+| $cp file1 file2 | Copy of file1 (file1 stays as is) |
+| $rm file1 file2 | Remove file1 and file2 |
+| $cal 1752 | Show calendar for the year 1752 |
+| $grep boa file | Find instances of word boa in file |
+| $cat file1 file2 > file3 | Combine file1 and file2 into file3 |
+| $date > junk | Write date into junk |
+| $du >> junk | Add disk space usage report to junk |
+| $tr a-z A-Z < in > out | Translate lowercase to uppercase |
+| $echo *.ps | What files are ps files |
+| $ls | wc -l | Count number of files in current directory |
+| $who | grep colin | Find out if colin is logged in |
+| $cal 1492 | more | View calendar for year 1492 using pager |
+| $date; who | more | Write the output of date to the terminal and the output of who to more |
+| $(date; who) | more | Write the output of both commands to more |
