@@ -1,6 +1,7 @@
 h2. Command of csh & tcsh
 
 h3. Basic
+
 | Command | Description |
 | sort -r file | Sort file in reverse order |
 | mv file1 file2 | Rename file1 to file2 (file1 becomes file2) |
@@ -21,6 +22,7 @@ h3. Basic
 | mkdir file{1,2,3,4}  | equivalent to mkdir file1 file2 file3 file4  |
 
 h3. Search keyword
+
 | Command | Description |
 | grep boa file | Find instances of word boa in file |
 | grep -rnw '/path/to/somewhere/' -e 'pattern' | -r or -R is recursive -n is line number -w stands for match the whole word |
@@ -29,6 +31,7 @@ h3. Search keyword
 | grep --exclude-dir={dir1,dir2,*.dst} -rnw '/path/to/somewhere/' -e "pattern" | exclude the dirs dir1/, dir2/ and all of them matching *.dst/ |
 
 h3. Reusing and Editing Commands
+
 | Command | Description |
 | history  | display your history list |
 | set history = 20  | remember the last 20 commands |
@@ -48,6 +51,7 @@ h3. Reusing and Editing Commands
 | foreach | foreach loop |
 
 h3. Navigting the File System
+
 | Command | Description |
 | cd - | flip between directories |
 | $cd ~/Database/parts $pushd ../suppliers $pushd | easy to move back and forth between two directories |
