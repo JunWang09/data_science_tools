@@ -1,0 +1,15 @@
+git init
+git config --global user.name ''
+git config --global user.email ''
+git add index.html
+git status
+#git rm --cached index.html (remove file from staging area)
+git add . (add everything into staging area)
+git commit -m "just a name"
+touch .gitignore
+git branch newbranch
+git checkout newbranch
+git merge newbranch
+
+git remote add origin https://github.com/JunWang09/data_science_tools.git
+git push -u origin master
