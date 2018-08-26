@@ -5,11 +5,34 @@ git add index.html
 git status
 #git rm --cached index.html (remove file from staging area)
 git add . (add everything into staging area)
-git commit -m "just a name"
-touch .gitignore
+git commit -m "details of the changes"
+git log (git log --oneline)
+git checkout 'id' (safer way, to only check the previous code)
+git checkout master (reattach back to master branch)
+git revert 'id' (safe way to go back, basically add one more commit)
+git reset 'id' (unsafe way to go back, but modified code still exists)
+git reset 'id'  --hard (unsafer way to go back, modified code will disappear)
+
 git branch newbranch
+git branch -a
 git checkout newbranch
+git checkout -b newbranch
+git branch -d newbranch (delete newbranch once it is merged)
+git branch -D newbranch (delete newbranch without merging)
+
+# merge new branch
+git checkout master 
 git merge newbranch
+
+touch .gitignore
 
 git remote add origin https://github.com/JunWang09/data_science_tools.git
 git push -u origin master
+(or git push https://github.com/JunWang09/data_science_tools.git master)
+git remote -v
+
+git clone https://github.com/JunWang09/data_science_tools.git
+git remote -v
+git pull origin master
+git checkout -b newbranch
+git push origin newbranch
