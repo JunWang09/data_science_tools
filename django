@@ -1,0 +1,12 @@
+django-admin startproject solution
+python manage.py startapp appTwo
+
+python manage.py migrate
+python manage.py makemigrations appTwo
+python manage.py migrate
+
+python manage.py runserver
+
+python manage.py createsuperuser
+
+
