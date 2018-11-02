@@ -4,3 +4,9 @@ source activate MyDjangoEnv
 source deactivate MyDjangoEnv
 
 pip install -r requirement.txt
+
+
+
+pip install virtualenv
+virtualenv myenvs
+source myenvs/bin/activate
