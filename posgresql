@@ -1,0 +1,14 @@
+ ls /etc/postgresql/11/main/
+ 
+ service postgresql status
+ sudo su postgres
+ psql
+ \l  -list database
+ \du -list users
+ ALTER USER postgres WITH PASSWORD 'test123'; - change password
+ CREATE USER user_1 WITH PASSWORD 'test123';
+ ALTER USER user_1 WITH SUPERUSER;
+ DROP USER user_1;
+ 
+ man psql
+ 
