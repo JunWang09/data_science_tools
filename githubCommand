@@ -36,3 +36,13 @@ git remote -v
 git pull origin master
 git checkout -b newbranch
 git push origin newbranch
+
+git stach save ''
+git stach list
+git stach apply ''
+git stach pop
+git stach drop ''
+
+git diff
+
+
