@@ -46,3 +46,11 @@ git stach drop ''
 git diff
 
 
+git merge --squash branch
+git commit -m "merged"
+or
+git rebase master
+git master
+git rebase branch
+
+
