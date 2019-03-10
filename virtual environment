@@ -1,0 +1,38 @@
+conda create --name MyDjangoEnv python=3.6
+conda info --envs
+source activate MyDjangoEnv
+source deactivate MyDjangoEnv
+
+pip install -r requirement.txt
+
+
+
+pyenv installation
+https://github.com/pyenv/pyenv  wiki
+- ubuntu
+  sudo apt-get update; sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+- macOS
+  brew install openssl readline sqlite3 xz zlib
+
+pyenv installer
+- curl https://pyenv.run | bash
+
+nano ~/.bashrc
+
+export PATH="~/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+install python
+pyenv install 3.6.5
+python -V
+
+nano ~/.pyenv/version
+3.6.5
+
+python -V
+
+pip install virtualenv
+virtualenv myenvs
+source myenvs/bin/activate
+deactivate
