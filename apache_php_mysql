@@ -1,0 +1,19 @@
+On Ubuntu
+
+- sudo apt-get install apache2
+- sudo service apache2 stop
+- sudo service apache2 start
+
+- sudo apt-get install php
+- sudo apt install libapache2-mod-php
+http://localhost/test.php
+
+- sudo apt-get install mysql-server mysql-client
+ password: 123456
+- mysql -u root -p
+- show databases;
+\q
+
+- sudo apt-get install phpmyadmin
+  space -> tab -> enter
+ 
